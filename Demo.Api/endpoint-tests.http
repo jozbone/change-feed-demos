@@ -1,0 +1,10 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+POST http://localhost:7211/api/CreateOrder
+Content-Type: application/json
+
+{
+    "multiples": "100"
+}
+
+###
